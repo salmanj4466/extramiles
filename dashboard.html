@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <!-- Google fonts -->
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+   <!-- Font Awsome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+   <link rel="stylesheet" href="assets/css/style.css">
+   <title>Extramiles</title>
+</head>
+<body>
+   <div id="preloader"></div>
+   <div id="wrapper">
+      <aside class="scrollbar" id="sidebar-wrapper">
+         <div class="text-center logo">
+            <a href="index.html">
+               <img src="assets/images/logo.png" alt="logo">
+            </a>
+         </div>
+         <ul class="sidebar-nav">
+            <li class="active">
+               <a href="dashboard.html"><i class="icon-home"></i>Dashboard</a>
+            </li>
+            <li>
+               <a href="javascript:void(0)"><i class="icon-file"></i>Booking</a>
+            </li>
+            <li>
+               <a href="members.html"><i class="icon-customer"></i>Members</a>
+            </li>
+            <li>
+               <a href="javascript:void(0)"><i class="icon-referrals"></i>Offers</a>
+            </li>
+            <li>
+               <a href="javascript:void(0)"><i class="icon-referrals"></i>Referrals</a>
+            </li>
+            <li>
+               <a href="javascript:void(0)"><i class="fa fa-sliders"></i>Reports</a>
+            </li>
+            <li>
+               <a href="javascript:void(0)"><i class="icon-partners"></i>Partners</a>
+            </li>
+            <li>
+               <a href="javascript:void(0)"><i class="fa fa-cog"></i>Missing miles</a>
+            </li>
+            <li>
+               <a href="javascript:void(0)"><i class="fa fa-cog"></i>Communication</a>
+            </li>
+            <li>
+               <a href="javascript:void(0)"><i class="fa fa-cog"></i>Miles</a>
+            </li>
+         </ul>
+      </aside>
+      <div id="navbar-wrapper">
+         <nav class="navbar navbar-expand-lg navbar-light">
+            <ul class="navbar-nav ml-auto d-flex align-items-center">
+               <li class="nav-item">
+                  <a class="nav-link" href="javascript:void(0)">
+                     <div class="d-inline-block position-relative mr-1">
+                        <img class="avatar" src="assets/images/user.png" alt="user">
+                        <span class="badge badge-success"></span>
+                     </div>
+                     Username <i class="fa fa-angle-down"></i> 
+                  </a>
+               </li>
+            </ul>
+         </nav>
+      </div>
+      <section id="content-wrapper" class="customer-list">
+         <div class="search-filter">
+            <form>
+               <div class="form-row align-items-center">
+                  <div class="col-md-3">
+                     <input type="text" class="form-control" placeholder="Name / ID">
+                  </div>
+                  <div class="col-md-2">
+                     <select class="form-control">
+                        <option>Start Date</option>
+                        <option>1</option>
+                        <option>2</option>
+                     </select>
+                  </div>
+                  <div class="col-md-2">
+                     <select class="form-control">
+                        <option>End Date</option>
+                        <option>1</option>
+                        <option>2</option>
+                     </select>
+                  </div>
+                  <div class="col-md-5 text-right">
+                     <button type="submit" class="btn btn-warning"> Search</button>
+                  </div>
+               </div>
+            </form>
+         </div>
+         <div class="row">
+            <div class="col-lg-12">
+               <div class="card mb-3 mt-2">
+                  <div class="card-body user-info">
+                     <div class="row align-items-center">
+                        <div class="col-md-4 text-center text-md-left">
+                           <h4 class="text-primary mb-0">Dashboard / Reports</h4>
+                        </div>
+                        <div class="col-md-8 text-center text-lg-right mt-3 mt-md-0">
+                           <a href="javascript:void(0)" class="btn btn-warning px-4 text-white">Add new</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         
+
+         <div class="row mb-4">
+            <div class="col-lg-4">
+               <div class="card h-100">
+                  <div class="card-body">
+                     <p class="text-dark font-bold mb-2">Job: <span class="text-primary">Hi Whatsapp</span></p>
+                     <p class="text-dark font-bold mb-2">Source: <span class="text-primary">Hiwhatsapp.Com</span></p>
+                     <p class="text-dark font-bold mb-2">Last API Call: <span class="text-primary">7/2/2022 14:15</span></p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-8">
+               <div class="card h-100">
+                  <div class="card-body">
+                     <p class="text-dark font-bold">Rule: <span class="text-primary">If Hiwhats Stop And Didn't Send Any Msg During 3 Hours Should Report The Management</span></p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-lg-12">
+               <div class="card">
+                  <div class="card-body px-0">
+                     <div class="row mb-2 px-3">
+                        <div class="col-lg-6">
+                           <h6 class="text-primary font-bold"><strong>History</strong></h6>
+                        </div>
+                        <div class="col-lg-6 text-right">
+                           <a href="javascript:void(0)" class="btn btn-primary"> <img class="mr-1" width="20" src="assets/images/excel.png" alt="excel"> Export </a>
+                        </div>
+                     </div>
+
+                     <div class="table-responsive">
+                        <table class="table mb-0">
+                           <thead>
+                              <tr>
+                                 <th>Sr</th>
+                                 <th>Case Date</th>
+                                 <th>Closing Date</th>
+                                 <th>Developer</th>
+                                 <th>Note</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>1</td>
+                                 <td>‏7/2/2022 14:15</td>
+                                 <td>‏7/2/2022 14:15</td>
+                                 <td>Haris</td>
+                                 <td>Hi Whatsapp API Not Working And The Company Upgrading The Server</td>
+
+                              </tr>
+                              <tr>
+                                 <td>1</td>
+                                 <td>‏7/2/2022 14:15</td>
+                                 <td>‏7/2/2022 14:15</td>
+                                 <td>Haris</td>
+                                 <td>Hi Whatsapp API Not Working And The Company Upgrading The Server</td>
+
+                              </tr>
+                              <tr>
+                                 <td>1</td>
+                                 <td>‏7/2/2022 14:15</td>
+                                 <td>‏7/2/2022 14:15</td>
+                                 <td>Haris</td>
+                                 <td>Hi Whatsapp API Not Working And The Company Upgrading The Server</td>
+
+                              </tr>
+                              <tr>
+                                 <td>1</td>
+                                 <td>‏7/2/2022 14:15</td>
+                                 <td>‏7/2/2022 14:15</td>
+                                 <td>Haris</td>
+                                 <td>Hi Whatsapp API Not Working And The Company Upgrading The Server</td>
+
+                              </tr>
+
+                           </tbody>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+   </div>
+   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="assets/js/jquery-3.4.1.slim.min.js"></script>
+   <script src="assets/js/popper.min.js"></script>
+   <script src="assets/js/bootstrap.min.js"></script>
+   <script>
+      (function ($) {
+       'use strict';
+
+           // Preloader
+           $(window).on('load', function () {
+              $('#preloader')
+              .delay(800)
+              .fadeOut('slow', function () {
+                $(this).remove();
+             });
+           });
+        })(window.jQuery);
+
+     </script>
+  </body>
+  </html>
